@@ -75,7 +75,7 @@ function App() {
           <footer>
               <Tile
 
-                  title="the Brand"
+                  title="The Brand"
                 >
                   <p>Morem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
