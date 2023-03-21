@@ -46,28 +46,28 @@ function App() {
           productLabel="Best seller"
           image={bag_one} altText="beautiful bag"
           productName="The handy bag"
-          price=" 400,-"
+          price="400"
         >
         </Product>
         <Product
           productLabel="Best seller"
           image={bag_two} altText="beautiful bag"
           productName="The stylish bag"
-          price=" 250,-"
+          price="250"
         >
         </Product>
         <Product
           productLabel="New collection"
           image={bag_three} altText="beautiful bag"
           productName="The simple bag"
-          price=" 300,-"
+          price="300"
         >
         </Product>
         <Product
           productLabel="New collection"
           image={bag_four} altText="beautiful bag"
           productName="The trendy bag"
-          price=" 150,-"
+          price="150"
         >
         </Product>
 
