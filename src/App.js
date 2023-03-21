@@ -13,94 +13,94 @@ import Tile from "./components/tile/Tile";
 
 function App() {
   return (
-      <>
-          <nav>
+    <>
+      <nav>
         <h1>Handbags & Purses</h1>
-              <Button
-                  buttonType="button"
-                  isDisabled={false}
-                  value="to the collection"
-                  isClicked={()=>console.log("You clicked")}
-              >
+        <Button
+          buttonType="button"
+          isDisabled={false}
+          value="to the collection"
+          isClicked={() => console.log("You clicked")}
+        >
 
-              </Button>
-              <Button
-                  buttonType="button"
-                  isDisabled={false}
-                  value="shop all bags"
-                  isClicked={()=>console.log("You clicked")}
-              >
+        </Button>
+        <Button
+          buttonType="button"
+          isDisabled={false}
+          value="shop all bags"
+          isClicked={() => console.log("You clicked")}
+        >
 
-              </Button>
-              <Button
-                  buttonType="button"
-                  isDisabled={true}
-                  value="pre-orders"
-                  isClicked={()=>console.log("You clicked")}
-              >
+        </Button>
+        <Button
+          buttonType="button"
+          isDisabled={true}
+          value="pre-orders"
+          isClicked={() => console.log("You clicked")}
+        >
 
-              </Button>
-          </nav>
-          <main>
-              <Product
-                  productLabel="Best seller"
-                  image={bag_one} altText="beautiful bag"
-                  productName="The handy bag"
-                  price=" 400,-"
-              >
-              </Product>
-              <Product
-                  productLabel="Best seller"
-                  image={bag_two} altText="beautiful bag"
-                  productName="The stylish bag"
-                  price=" 250,-"
-              >
-              </Product>
-              <Product
-                  productLabel="New collection"
-                  image={bag_three} altText="beautiful bag"
-                  productName="The simple bag"
-                  price=" 300,-"
-              >
-              </Product>
-              <Product
-                  productLabel="New collection"
-                  image={bag_four} altText="beautiful bag"
-                  productName="The trendy bag"
-                  price=" 150,-"
-              >
-              </Product>
+        </Button>
+      </nav>
+      <main>
+        <Product
+          productLabel="Best seller"
+          image={bag_one} altText="beautiful bag"
+          productName="The handy bag"
+          price=" 400,-"
+        >
+        </Product>
+        <Product
+          productLabel="Best seller"
+          image={bag_two} altText="beautiful bag"
+          productName="The stylish bag"
+          price=" 250,-"
+        >
+        </Product>
+        <Product
+          productLabel="New collection"
+          image={bag_three} altText="beautiful bag"
+          productName="The simple bag"
+          price=" 300,-"
+        >
+        </Product>
+        <Product
+          productLabel="New collection"
+          image={bag_four} altText="beautiful bag"
+          productName="The trendy bag"
+          price=" 150,-"
+        >
+        </Product>
 
-          </main>
-          <footer>
-              <Tile
+      </main>
+      <footer>
+        <Tile
 
-                  title="The Brand"
-                >
-                  <p>Morem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
+          title="The Brand"
+        >
+          <p>Morem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
 
-              </Tile>
-              <Tile
-                  image={brand} altText="brand"
-                >
+        </Tile>
+        <Tile
+          image={brand} altText="brand"
+        >
 
-              </Tile>
-              <Tile
-                  image={our_story} altText="our story"
-                >
+        </Tile>
+        <Tile
+          image={our_story} altText="our story"
+        >
 
-              </Tile>
-              <Tile
+        </Tile>
+        <Tile
 
-                  title="Our Story"
-                >
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
+          title="Our Story"
+        >
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam, deserunt qui quod rem reprehenderit vero vitae voluptas voluptatum?</p>
 
-              </Tile>
+        </Tile>
 
-          </footer>
-        </>
+      </footer>
+    </>
   );
 }
 

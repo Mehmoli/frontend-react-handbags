@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Product({productLabel, image, altText, productName, price}) {
+function Product({ productLabel, image, altText, productName, price }) {
     return (
         <article>
-            <span>{productLabel}</span><img src={image} alt={altText}/><p>{productName}</p><h4>€{price}</h4>
+            <span>{productLabel}</span><img src={image} alt={altText} /><p>{productName}</p><h4>€{price}</h4>
         </article>
     );
 }
